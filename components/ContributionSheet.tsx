@@ -5,6 +5,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { X, Heart, Sparkles, Check, Calendar, Bell } from 'lucide-react';
 import confetti from 'canvas-confetti';
 import { soundEffects } from '@/lib/audio';
+import { IOSSpinner } from './IOSSpinner';
 import { calculateDailyBreakdown, validatePersonAmount } from '@/lib/calculations';
 import { formatFriendlyDate, getTodayInTimezone, isDateInFuture, isDateWithinTripRange } from '@/lib/dates';
 import { DailyContribution } from '@/types';
@@ -330,9 +331,9 @@ export function ContributionSheet({
                     <span>Saved with Love! 🔔❤️</span>
                   </motion.div>
                 ) : isSubmitting ? (
-                  <div className="flex items-center gap-2">
-                    <span className="w-4 h-4 border-2 border-[#0A0A0D] border-t-transparent rounded-full animate-spin" />
-                    <span>Packing into Journal...</span>
+                  <div className="flex items-center gap-2.5">
+                    <IOSSpinner size={18} color="#0A0A0D" />
+                    <span className="font-semibold">Saving to Journal...</span>
                   </div>
                 ) : (
                   <>
