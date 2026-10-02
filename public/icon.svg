@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <rect width="512" height="512" rx="128" fill="#101116"/>
+  <rect x="24" y="24" width="464" height="464" rx="108" fill="none" stroke="#22232C" stroke-width="4"/>
+  <!-- Suitcase -->
+  <rect x="120" y="190" width="272" height="210" rx="36" fill="#1C1D24" stroke="#E08A9B" stroke-width="8"/>
+  <path d="M 196 190 V 145 C 196 125 212 110 232 110 H 280 C 300 110 316 125 316 145 V 190" fill="none" stroke="#E08A9B" stroke-width="8" stroke-linecap="round"/>
+  <!-- Suitcase Straps -->
+  <line x1="185" y1="190" x2="185" y2="400" stroke="#F3E8D2" stroke-width="4" stroke-opacity="0.6"/>
+  <line x1="327" y1="190" x2="327" y2="400" stroke="#F3E8D2" stroke-width="4" stroke-opacity="0.6"/>
+  <!-- Center Heart -->
+  <path d="M 256 310 C 256 310 220 280 220 252 C 220 234 234 220 250 220 C 258 220 256 226 256 226 C 256 226 254 220 262 220 C 278 220 292 234 292 252 C 292 280 256 310 256 310 Z" fill="#E08A9B"/>
+  <!-- Mini Airplane -->
+  <path d="M 370 120 L 400 110 L 390 140 L 375 130 Z" fill="#F3E8D2"/>
+</svg>
